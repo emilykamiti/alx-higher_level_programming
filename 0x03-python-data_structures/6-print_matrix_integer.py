@@ -1,5 +1,6 @@
 ble file 11 lines (10 sloc) 360 Bytes
 #!/usr/bin/python3
+# 6-print_matrix_integer.py
 
 def print_matrix_integer(matrix=[[]]):
     """Print a matrix of integers."""
