@@ -1,12 +1,8 @@
-ble file 11 lines (10 sloc) 360 Bytes
 #!/usr/bin/python3
-# 6-print_matrix_integer.py
-
 def print_matrix_integer(matrix=[[]]):
-    """Print a matrix of integers."""
     for i in range(len(matrix)):
         for j in range(len(matrix[i])):
-                print("{:d}".format(matrix[i][j]), end="")
-                if j != (len(matrix[i]) - 1):
-                    print(" ", end="")
-        print("")
+            if j != 0:
+                print(" ", end='')
+            print("{:d}".format(matrix[i][j]), end='')
+        print()
